@@ -1,0 +1,122 @@
+.login {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  padding-top: 1vh;
+  height: 101.5vh;
+  width: 209.1vh;
+  position: fixed;
+  font-family: Lato,sans-serif;
+  background-color: #f8f9fd;
+  background-size: cover;
+  /* background-position: center; */
+  margin: -8px;
+  background-image: url("https://images.unsplash.com/photo-1506617564039-2f3b650b7010?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGdyb2Nlcnl8ZW58MHx8MHx8fDA%3D&w=1000&q=80")
+  
+}
+
+input[type="phone"]{
+  height: 40px;
+  width: 40vh;
+  padding: 4px;
+  border: 1px solid rgb(230, 121, 121);
+}
+
+
+input[type="email"] {
+  height: 40px;
+  width: 40vh;
+  padding: 4px;
+  border: 1px solid rgb(235, 112, 112);
+}
+
+input[type="text"]{
+    height: 20px;
+    width: 40vh;
+    border: 1px solid rgb(222, 102, 102);
+    color: #39d62e;
+    
+}
+input[type="password"] {
+  width: 40vh;
+  height: 25px;
+  border: 1px solid rgb(217, 101, 101);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #1e6f24;
+  border-color: #6a3818;
+  color: #fff;
+  width:70%;
+  padding: 10px 0px 5px 0px;
+}
+
+input[type="submit"]:hover {
+  background: #1c6a17;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color:  white;
+  padding: 0.5rem;
+  box-shadow: 0 2px 2px 2px #ccc;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 0.9;
+  
+ 
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+  color: #442210;
+  font-size: 20px;
+}
+
+.input-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  color: #1d1d25;
+  font-size: 20px;
+}
+.register{
+  text-align: center;
+  color: #e5b57d;
+  margin-top: 5px;
+  font-size: small;
+  padding-top: 7px;
+
+}
+a{
+color: black;
+/* margin-left: px; */
+text-align: center;
+}
